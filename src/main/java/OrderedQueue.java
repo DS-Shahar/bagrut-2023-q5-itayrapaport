@@ -93,7 +93,7 @@ public class OrderedList {
                 lst.insert(tempQueue.remove());
             }
         } else {
-            // If the number to remove is not found, reconstruct the original list
+            
             while (!tempQueue.isEmpty()) {
                 lst.insert(tempQueue.remove());
             }
